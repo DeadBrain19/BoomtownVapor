@@ -1,0 +1,28 @@
+.jow {
+  text-align: center;
+  color: aqua;
+  background-color: black;
+}
+.jow__card {
+}
+
+.jow__prices {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.jow__img {
+  max-width: 50%;
+  height: 200px;
+}
+
+.jow__discripton {
+  color: whitesmoke;
+}
+
+.jow__card-title {
+  color: whitesmoke;
+}

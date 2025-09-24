@@ -1,0 +1,41 @@
+.fow {
+  display: flex;
+  background-color: black;
+  color: aqua;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.fow__card-img {
+  min-width: 200px;
+  min-height: 300px;
+}
+
+.fow__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.fow__card {
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.fow__green {
+  background-color: green;
+  color: black;
+}
+
+.fow__white {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.fow__pink {
+  background-color: pink;
+  color: black;
+}
