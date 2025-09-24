@@ -1,0 +1,40 @@
+.locations {
+  background-image: url(../images/banner-location.png);
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  gap: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.location__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.locations__banner {
+}
+
+.location__card {
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 0 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: whitesmoke;
+}
+
+.location__img {
+  width: 200px;
+  height: 100%;
+}
+
+.location__info {
+}
+
+@media (min-width: 768px) {
+}
